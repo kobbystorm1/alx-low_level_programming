@@ -11,7 +11,6 @@
 int main(void)
 {
 	int i;
-	char c = 'a';
 
 	for (i = 48; i < 58; i++)
 	{

@@ -12,14 +12,22 @@ int main(void)
 {
 	int i;
 	int x;
+
 	for (i = 48; i < 57; i++)
 	{
 		for (x = i + 1; x <= 57; x++)
 		{
 			putchar(i);
 			putchar(x);
-			putchar(',');
-			putchar(' ');
+			if ((i == 56) && (x == 57))
+			{
+			continue;
+			}
+			else
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');

@@ -1,6 +1,6 @@
 #include "main.h"
-//#include <unistd.h>
-/**
+/**#include <unistd.h>
+ *
  * main -, where the entry happens
  *
  * Return: 0.

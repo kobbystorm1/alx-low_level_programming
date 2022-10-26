@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * _islower - checks if character is a lower character
+ *  @c - placeholder for the character
  *
  * Return: 0.
- * @c - placeholder for the character
  */
 int _islower(int c)
 

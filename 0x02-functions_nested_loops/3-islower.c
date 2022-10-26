@@ -5,7 +5,7 @@
  * Return: 0.
  * c - placeholder for the character
  */
-int _islower(int c);/*c - character to be held here*/
+int _islower(int c)/*c - character to be held here*/
 
 {
 	int c;/*character to be held here*/

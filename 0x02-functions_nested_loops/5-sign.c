@@ -9,25 +9,28 @@
 
 int print_sign(int n)
 {
-	signed int m;
+	int m ;
 
 	if (n > 0)
 
 	{
-		m = '+1';
+		m = +1;
 		_putchar(43);
-		return (m);
+		_putchar(49);
+		return (1);
 	}
 	else if (n == 0)
 	{
 		m = 0;
 		_putchar(48);
-		return (m);
+		_putchar(48);
+		return (0);
 	}
 	else
 	{
-		m = '-1';
+		m = -1;
 		_putchar(45);
-		return (m);
+		_putchar(49);
+		return (-1);
 	}
 }

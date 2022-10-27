@@ -14,7 +14,7 @@ int print_last_digit(int n)
 	}
 	else
 	{
-		n = n; 
+		n = n;
 	}
 	while (n > 10)
 

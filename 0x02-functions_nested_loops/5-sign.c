@@ -1,17 +1,18 @@
 #include "main.h"
 /**
- * print_sign - prints sign of number 
+ * print_sign - prints sign of number
  *  @n: Placeholder for the number
  *
- * Return: 1, 0,-1 
+ * Return: 1, 0,-1
  */
- 
+
 int print_sign(int n)
 {
-	if (n >0)
+	if (n > 0)
 
 	{
-		return (1);
+		_putchar(43)
+		_putchar(49);
 	}
 	else if (n == 0)
 	{

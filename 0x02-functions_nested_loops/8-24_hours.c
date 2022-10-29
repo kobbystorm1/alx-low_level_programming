@@ -1,16 +1,16 @@
 
 #include "main.h"
 /**
- * jack_bauer - prints every minute of the day 
- * @h: Placeholder for hours
- * @m: Placeholder for minutes
+ * jack_bauer - prints every minute of the day
+ * h: Placeholder for hours
+ * m: Placeholder for minutes
  *
  * Return: void
  */
 
 void jack_bauer(void)
 {
-	int h,m;
+	int h, m;
 
 	for (h = 0; h < 24; h++)
 	{

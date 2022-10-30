@@ -23,5 +23,5 @@ int add(int a, int b)
 	_putchar(ans  + '0');
 	}
 
-	return (0);
+	return ();
 }

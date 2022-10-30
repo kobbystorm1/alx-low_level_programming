@@ -13,7 +13,7 @@ int add(int a, int b)
 
 	ans = a + b;
 
-	if (ans > 9)
+	/*if (ans > 9)
 	{
 	_putchar((ans / 10) + '0');
 	_putchar((ans % 10) + '0');
@@ -21,6 +21,7 @@ int add(int a, int b)
 	else
 	{
 	return (_putchar(ans  + '0'));
-	}
+	}*/
+	return (ans);
 
 }

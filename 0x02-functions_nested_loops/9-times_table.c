@@ -22,7 +22,7 @@ void times_table(void)
 				_putchar((ans / 10) + '0');
 				_putchar((ans % 10) + '0');
 
-				while (value < 9)
+				if (value < 9)
 				{
 					_putchar(',');
 					_putchar(' ');
@@ -32,10 +32,11 @@ void times_table(void)
 			{
 				_putchar(ans + '0');
 
-				while (value < 9)
+				if (value < 9)
 				{
 					_putchar(',');
 					_putchar(' ');
+
 				}
 			}
 

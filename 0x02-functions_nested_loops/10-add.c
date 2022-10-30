@@ -20,8 +20,7 @@ int add(int a, int b)
 	}
 	else
 	{
-	_putchar(ans  + '0');
+	return (_putchar(ans  + '0'));
 	}
 
-	return ();
 }

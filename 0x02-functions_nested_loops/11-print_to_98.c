@@ -8,7 +8,7 @@
 
 void print_to_98(int n)
 {
-	int x;
+	int x , y;
 	if (n > 98)
 	{
 		for (x = n; x >= 98; x--)
@@ -16,7 +16,7 @@ void print_to_98(int n)
 			if (x > 99)
 			{
 				_putchar((x / 100) + '0');
-				int y; 
+ 
 				y = x;
 				while (y > 10)
 				{

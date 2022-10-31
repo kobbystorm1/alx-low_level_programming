@@ -17,15 +17,14 @@ void print_to_98(int n)
 			{
 				_putchar((x / 100) + '0');
  
-				y = x;
-				if ((y % 100) >= 10)
+				if ((x % 100) >= 10)
 				{
-					y = (y / 10);
-					_putchar(y + '/');
+					x = (x / 10);
+					_putchar(x + '0');
 				}
 				else
 				{
-					_putchar((y / 10) + '0');
+					_putchar((x / 10) + '0');
 				}
 				_putchar((x % 10) + '0');
 				_putchar(',');

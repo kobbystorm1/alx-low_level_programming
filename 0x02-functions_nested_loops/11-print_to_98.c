@@ -9,28 +9,50 @@
 void print_to_98(int n)
 {
 	int x;
-
-	for (x = n; x < 99; x++)
+	if (n > 98)
 	{
-
-		if ((x > 9) || (x < -9))
+		for (x = n; x > 98; x--)
 		{
-			_putchar((x / 10) + '0');
-			_putchar((x % 10) + '0');
-
-			if (x < 98)
+			if (x > 99)
 			{
+				_putchar((x / 100) + '0');
+				_putchar((x / 10) + '0');
+				_putchar((x % 10) + '0');
+				_putchar(',');
+				_putchar(' ');
+			}
+			else
+			{
+				_putchar((x / 10) + '0');
+				_putchar((x % 10) + '0');
+				if (x != 98)
+				{
+					_putchar(',');
+					_putchar(' ');
+				}
+			}
+		}
+	}
+	else
+	{
+		for (x = n; x < 99; x++)
+		{
+			if ((x > 9) || (x < -9))
+			{
+				_putchar((x / 10) + '0');
+				_putchar((x % 10) + '0');
+				if (x < 98)
+				{
+					_putchar(',');
+					_putchar(' ');
+				}
+			}
+			else
+			{
+				_putchar(x + '0');
 				_putchar(',');
 				_putchar(' ');
 			}
 		}
-		else
-		{
-			_putchar(x + '0');
-			_putchar(',');
-			_putchar(' ');
-		}
-		
-	}
-	_putchar('\n');
+		_putchar('\n');
 }

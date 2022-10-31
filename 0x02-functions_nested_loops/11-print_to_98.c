@@ -16,7 +16,8 @@ void print_to_98(int n)
 			if (x > 99)
 			{
 				_putchar((x / 100) + '0');
-				int y = x;
+				int y; 
+				y = x;
 				while (y > 10)
 				{
 					y = (y / 10);

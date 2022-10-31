@@ -67,7 +67,10 @@ void print_to_98(int n)
 			}
 			else
 			{
-				_putchar((x / 10) + '0');
+				if (x > 9)
+				{
+					_putchar((x / 10) + '0');
+				}
 				_putchar((x % 10) + '0');
 				_putchar(',');
 				_putchar(' ');

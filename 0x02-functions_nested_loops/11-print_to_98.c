@@ -11,12 +11,18 @@ void print_to_98(int n)
 	int x;
 	if (n > 98)
 	{
-		for (x = n; x > 98; x--)
+		for (x = n; x >= 98; x--)
 		{
 			if (x > 99)
 			{
 				_putchar((x / 100) + '0');
-				_putchar((x / 10) + '0');
+				int y = x;
+				while (y > 10)
+				{
+					y = (y / 10);
+					y++;
+				}
+				_putchar(y + '0');
 				_putchar((x % 10) + '0');
 				_putchar(',');
 				_putchar(' ');

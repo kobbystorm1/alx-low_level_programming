@@ -21,7 +21,7 @@ void print_to_98(int n)
 				if ((y % 100) >= 10)
 				{
 					y = (y / 10);
-					_putchar(y + '0');
+					_putchar(y + '/');
 				}
 				else
 				{

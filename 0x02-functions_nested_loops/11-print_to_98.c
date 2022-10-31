@@ -25,7 +25,7 @@ void print_to_98(int n)
 				}
 				else
 				{
-					_putchar((y / 10) + '0');
+					_putchar((y % 10) + '0');
 				}
 				_putchar((x % 10) + '0');
 				_putchar(',');

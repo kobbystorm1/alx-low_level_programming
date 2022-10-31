@@ -18,7 +18,7 @@ void print_to_98(int n)
 				_putchar((x / 100) + '0');
  
 				y = x;
-				if ((y % 100) > 10)
+				if ((y % 100) >= 10)
 				{
 					y = (y / 10);
 					_putchar(y + '0');
